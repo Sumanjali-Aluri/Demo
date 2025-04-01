@@ -30,7 +30,6 @@ Feature: create authentication token
     * def accessToken = response.accessToken
     And print "Access Token: ",accessToken
 
-
     Examples: 
       | clientName  | clientEmail          |
       | "Joe Smith" | "joesmith1@gmail1.com" |
